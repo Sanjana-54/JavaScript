@@ -1,0 +1,13 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+img{
+    
+    position: fixed;
+    height:200px;
+    bottom:0;
+    right:0;
+}

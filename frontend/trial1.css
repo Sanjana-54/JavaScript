@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+    margin:auto;
+    margin-top: 50px;
+    
+}
+
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+div{
+    background-color: bisque;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-top: 100px;
+    border-bottom: 200px;
+    position:absolute;
+    border:50px black;
+
+}
+.linkedin{
+    position:absolute;
+    display: block;
+    bottom:150px;
+    right:-50px;
+    size:10px;
+}
+.git{
+    position: absolute;
+    right:50px;
+
+}

@@ -1,0 +1,40 @@
+### REGISTER USER
+POST http://localhost:5000/common-api/users
+Content-Type: application/json
+
+{
+    "firstname":"user1",
+    "lastname":"",
+    "email":"user1@mail.com",
+    "password":"user1",
+    "role":"USER",
+    "profileImageUrl":""
+}
+
+### USER LOGIN
+POST http://localhost:5000/common-api/login
+Content-Type: application/json
+
+{
+    "email":"user1@mail.com",
+    "password":"user1"
+}
+
+### USER LOGOUT
+GET http://localhost:5000/common-api/logout
+
+
+### READ ARTICLES OF ALL AUTHORS
+GET http://localhost:5000/user-api/articles
+
+### ADD COMMENT BY USER TO AN ARTICLE
+PUT http://localhost:5000/user-api/articles
+Content-Type: application/json
+
+{
+    "articleId":"69b4b01851b1cac7c39d2e23",
+    "comment":"This Article is good"
+}
+
+
+
